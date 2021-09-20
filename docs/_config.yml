@@ -1,0 +1,28 @@
+remote_theme: pages-themes/minimal@v0.2.0
+logo: /images/main.jpg
+title: V-Class Moscow
+tagline: Более 20 лет на рынке
+description: >-
+  Автобусы на колесах на базе Mercedes-Benz V-class и др. моделей.
+tags:
+  - Business Vans
+  - Автобусы на колёсах
+preferences:
+  - type: dropdown
+    name: language
+    label: Language
+    description: Choose your preferred language.
+    options:
+      - label: Russian
+        value: ru
+      - label: English
+        value: en
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      title: V-Class Moscow
+      description: Автобусы на колесах на базе Mercedes-Benz V-class и др. моделей.
+      layout: "default"
